@@ -8,8 +8,6 @@ just download the zip file then open the index.html with vscode(for editing)
 
 ## Usage
 you can use it either to learn or to inspire.feel free.
-## Contributing
-
 
 ## Credits
 - Saad Tmimi
