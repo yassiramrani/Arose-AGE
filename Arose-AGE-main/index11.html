@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>projet fa</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> A Rosa-je
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">MENU</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">A propos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Produitss</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">FAQs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+        
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    nos  produits
+                </h2>
+
+                <p class="product__description">
+                  notre catalogue qui offre principalement trois pack <br> innovantes.
+                </p>
+
+                <div class="product__container_grid">
+                   
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product2.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Cactus Plant</h3>
+                        <span class="product__price">$11.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+
+                  
+
+               
+
+                 
+                </div>
+            </section>
+
+          
+
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Réponse rapide par :
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Téléphone </h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +212-539-940308
+                                </span>
+                            </div>
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Email </h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    informations@emsi.ma
+                                </span>
+                            </div>
+                        </div>
+                            <div><br><br>
+                                Faites votre messsage et on prendra <br>rapidement contact avec vous.
+                            </div>
+                    </div>
+                    
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email*</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Objet*</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message*</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Envoyer Le Message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> Arrosage
+                    </a>
+
+                    <p >
+                        Une entreprise spécialisée dans l'arrosage automatique à Tanger, Rapide, professionel et pas cher.
+                    </p>
+                    <br>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Entrer votre email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            S'inscrire
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adresse</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">Angle Rue Omar<br> Ibn Abdelaziz  </li>
+                        <li class="footer__information">& Rue Sejelmassa </li>
+                        <li class="footer__information">90060 Tanger</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Suivez-Nous</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+212-539-940308</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://web.facebook.com/emsi.ma/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/groupe.emsi/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/GroupeEMSI" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Carte de crédit
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Copyright. Tous droits réservés à ARROSAGE</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
