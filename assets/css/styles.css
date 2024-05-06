@@ -999,12 +999,20 @@ the website, in dark theme
     grid-template-columns: repeat(3, 185px);
     gap: 4rem 6rem;
   }
+  .product__container_grid{
+    position: relative;
+    
+    margin-left: auto;
+    
+  }
+
   .product__img{
     width: 160px;
   }
   .product__circle{
     width: 110px;
     height: 110px;
+    
   }
   .product__title,
   .product__price{
