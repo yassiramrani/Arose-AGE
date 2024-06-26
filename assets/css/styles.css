@@ -502,8 +502,11 @@ the website, in dark theme
   position: relative;
 }
 
+
+
 .product__img{
   position: relative;
+  padding-top: 20px;
   width: 120px;
   justify-self: center;
   margin-bottom: var(--mb-0-75);
